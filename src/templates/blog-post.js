@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
@@ -6,10 +6,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
+import {setupTwoslashHovers} from "gatsby-remark-shiki-twoslash/dist/dom"
+
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
+
+  useEffect(setupTwoslashHovers, [])
 
   return (
     <Layout location={location} title={siteTitle}>

@@ -1516,6 +1516,22 @@
     semver "^6.3.0"
     tsutils "^3.17.1"
 
+"@typescript/twoslash@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@typescript/twoslash/-/twoslash-0.1.0.tgz#b6bab2987bd5bc58852edc0172a5646575f51620"
+  integrity sha512-UnDML9PrU3x9CPFUTzQJQ8VEspUuoqxh9azRXzsyM3Xjdb/FB2gZrk0KsGGUK+OEh+X1mPlZVu/bDrp8fWi46A==
+  dependencies:
+    "@typescript/vfs" "0.1.0"
+    debug "^4.1.1"
+    lz-string "^1.4.4"
+
+"@typescript/vfs@0.1.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@typescript/vfs/-/vfs-1.0.0.tgz#542cea6b11ceed2afb4fa7c9b8800eadd13da0db"
+  integrity sha512-Yyv2Ah7egLxs7TI2YPadkOQEJsREj8AOcXNdHRMAcRKGpD55iiLc7TsOd2WpqEuFF6oZO3U8xEJ9z+0N54sXhQ==
+  dependencies:
+    debug "^4.1.1"
+
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.9.0.tgz#bd850604b4042459a5a41cd7d338cbed695ed964"
@@ -2654,6 +2670,11 @@ buffer@^5.2.0, buffer@^5.2.1, buffer@^5.5.0:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
 
+builtin-modules@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
+  integrity sha1-Jw8HbFpywC9bZaR9+Uxf46J4iS8=
+
 builtin-modules@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-3.1.0.tgz#aad97c15131eb76b65b50ef208e7584cd76a7484"
@@ -2851,7 +2872,7 @@ chalk@1.1.3, chalk@^1.0.0, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@2.4.2, chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.4.1, chalk@^2.4.2:
+chalk@2.4.2, chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
@@ -3168,7 +3189,7 @@ command-exists@^1.2.4:
   resolved "https://registry.yarnpkg.com/command-exists/-/command-exists-1.2.8.tgz#715acefdd1223b9c9b37110a149c6392c2852291"
   integrity sha512-PM54PkseWbiiD/mMsbvW351/u+dafwTJ0ye2qB60G1aGQP9j3xK2gmMDc+R34L3nDtx4qMCitXT75mkbkGJDLw==
 
-commander@^2.11.0, commander@^2.20.0:
+commander@^2.11.0, commander@^2.12.1, commander@^2.20.0:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
@@ -4106,6 +4127,11 @@ devcert@^1.1.0:
     sudo-prompt "^8.2.0"
     tmp "^0.0.33"
     tslib "^1.10.0"
+
+diff@^4.0.1:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
+  integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
 
 diffie-hellman@^5.0.0:
   version "5.0.3"
@@ -5686,15 +5712,6 @@ gatsby-remark-images@^3.2.1:
     unist-util-select "^1.5.0"
     unist-util-visit-parents "^2.1.2"
 
-gatsby-remark-prismjs@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-3.4.1.tgz#455c60f24882a6167d3035806310d462b9d4f2ec"
-  integrity sha512-DPg4PjalrElXXZ3KZRiWiJiHIsXaee51nN2hCoGC2hfaXW8VdSjXhpBSSps9OWuB+QNmdTp/EP3FDiiwImjpUw==
-  dependencies:
-    "@babel/runtime" "^7.8.7"
-    parse-numeric-range "^0.0.2"
-    unist-util-visit "^1.4.1"
-
 gatsby-remark-responsive-iframe@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/gatsby-remark-responsive-iframe/-/gatsby-remark-responsive-iframe-2.3.1.tgz#707bb89fd7aeeaeee9923e1c31a8f94681038e6d"
@@ -5705,6 +5722,17 @@ gatsby-remark-responsive-iframe@^2.3.1:
     common-tags "^1.8.0"
     lodash "^4.17.15"
     unist-util-visit "^1.4.1"
+
+gatsby-remark-shiki-twoslash@^0.5.6:
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-shiki-twoslash/-/gatsby-remark-shiki-twoslash-0.5.6.tgz#3fbe6516fecfdcfc8a6f25265900dc9b29775661"
+  integrity sha512-sTs0fJUCTSxn0AruppMHyeQcIi2bUy600lSB/esTK/MAKs/jpV3JdJWruJKylvf7CZ5E4teKrZ8jq6PDZIkGNg==
+  dependencies:
+    "@typescript/twoslash" "^0.1.0"
+    shiki "^0.1.6"
+    shiki-languages "^0.1.6"
+    typescript "*"
+    unist-util-visit "^2.0.0"
 
 gatsby-remark-smartypants@^2.2.1:
   version "2.2.1"
@@ -6072,7 +6100,7 @@ glob-to-regexp@^0.3.0:
   resolved "https://registry.yarnpkg.com/glob-to-regexp/-/glob-to-regexp-0.3.0.tgz#8c5a1494d2066c570cc3bfe4496175acc4d502ab"
   integrity sha1-jFoUlNIGbFcMw7/kSWF1rMTVAqs=
 
-glob@^7.0.3, glob@^7.0.5, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
+glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
   version "7.1.6"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
   integrity sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==
@@ -7771,6 +7799,13 @@ json5@^1.0.1:
   dependencies:
     minimist "^1.2.0"
 
+json5@^2.1.0:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.3.tgz#c9b0f7fa9233bfe5807fe66fcf3a5617ed597d43"
+  integrity sha512-KXPvOm8K9IJKFM0bmdn8QXh7udDh1g/giieX0NLCaMnb4hEiVFqnop2ImTXCc5e0/oHz3LTqmHGtExn5hfMkOA==
+  dependencies:
+    minimist "^1.2.5"
+
 json5@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.2.tgz#43ef1f0af9835dd624751a6b7fa48874fb2d608e"
@@ -8214,6 +8249,11 @@ lru-cache@^5.1.1:
   integrity sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==
   dependencies:
     yallist "^3.0.2"
+
+lz-string@^1.4.4:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/lz-string/-/lz-string-1.4.4.tgz#c0d8eaf36059f705796e1e344811cf4c498d3a26"
+  integrity sha1-wNjq82BZ9wV5bh40SBHPTEmNOiY=
 
 make-dir@^1.0.0, make-dir@^1.2.0:
   version "1.3.0"
@@ -9143,6 +9183,14 @@ onetime@^5.1.0:
   dependencies:
     mimic-fn "^2.1.0"
 
+onigasm@^2.2.1:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/onigasm/-/onigasm-2.2.4.tgz#b0ad97e3d7c3080476a1e5daae4b4579a976cbba"
+  integrity sha512-BJKxCTsK0mrLh+A6AuNzknxaULZRKM5uywA2goluMLLCjfMm/PTUa0M7oSH1Ltb6CT1oKXn2atHR75Y3JQ0SSg==
+  dependencies:
+    lru-cache "^5.1.1"
+    tslint "^5.20.1"
+
 open@^6.3.0, open@^6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/open/-/open-6.4.0.tgz#5c13e96d0dc894686164f18965ecfe889ecfc8a9"
@@ -9490,11 +9538,6 @@ parse-latin@^4.0.0:
     nlcst-to-string "^2.0.0"
     unist-util-modify-children "^1.0.0"
     unist-util-visit-children "^1.0.0"
-
-parse-numeric-range@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/parse-numeric-range/-/parse-numeric-range-0.0.2.tgz#b4f09d413c7adbcd987f6e9233c7b4b210c938e4"
-  integrity sha1-tPCdQTx6282Yf26SM8e0shDJOOQ=
 
 parse-passwd@^1.0.0:
   version "1.0.0"
@@ -11478,6 +11521,31 @@ shell-quote@1.7.2:
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.2.tgz#67a7d02c76c9da24f99d20808fcaded0e0e04be2"
   integrity sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg==
 
+shiki-languages@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/shiki-languages/-/shiki-languages-0.1.6.tgz#4a71eba9d345de4780fc46994e4d073356573e3e"
+  integrity sha512-rMu+z97UCPKMtPBkzLBItReawXnlOgXZmELFwI/s3ATxd9VzJgSQTtQW/hmW5EYCrzF2kAUjoOnn+50/MPWjgQ==
+  dependencies:
+    vscode-textmate "https://github.com/octref/vscode-textmate"
+
+shiki-themes@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/shiki-themes/-/shiki-themes-0.1.5.tgz#522a0d0e450316abbc10914f543e6eb0cc515f33"
+  integrity sha512-gti5xOV8f2R3EL1ULcpqarOHCNgnGds2saWc7k40ZBOtQBrQQ8na+hKwXASWZu7rL9+/RCr2z+Lf+UR7C71kRA==
+  dependencies:
+    json5 "^2.1.0"
+    vscode-textmate "https://github.com/octref/vscode-textmate"
+
+shiki@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/shiki/-/shiki-0.1.6.tgz#1db16acbb840cd275b196ff2829781b483aef54e"
+  integrity sha512-qG/T0bqNxcLM6nvoX0MZKjAzU14P6j5KutFhjCvnNHGfDmH1Z0VL/KQ/kMmtcGRlXfnlaMBXxniMnGGE7DhJRg==
+  dependencies:
+    onigasm "^2.2.1"
+    shiki-languages "^0.1.6"
+    shiki-themes "^0.1.5"
+    vscode-textmate "https://github.com/octref/vscode-textmate"
+
 side-channel@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/side-channel/-/side-channel-1.0.2.tgz#df5d1abadb4e4bf4af1cd8852bf132d2f7876947"
@@ -12524,10 +12592,36 @@ ts-pnp@^1.1.6:
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
   integrity sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==
 
-tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.10.0, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
   integrity sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
+
+tslint@^5.20.1:
+  version "5.20.1"
+  resolved "https://registry.yarnpkg.com/tslint/-/tslint-5.20.1.tgz#e401e8aeda0152bc44dd07e614034f3f80c67b7d"
+  integrity sha512-EcMxhzCFt8k+/UP5r8waCf/lzmeSyVlqxqMEDQE7rWYiQky8KpIBz1JAoYXfROHrPZ1XXd43q8yQnULOLiBRQg==
+  dependencies:
+    "@babel/code-frame" "^7.0.0"
+    builtin-modules "^1.1.1"
+    chalk "^2.3.0"
+    commander "^2.12.1"
+    diff "^4.0.1"
+    glob "^7.1.1"
+    js-yaml "^3.13.1"
+    minimatch "^3.0.4"
+    mkdirp "^0.5.1"
+    resolve "^1.3.2"
+    semver "^5.3.0"
+    tslib "^1.8.0"
+    tsutils "^2.29.0"
+
+tsutils@^2.29.0:
+  version "2.29.0"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.29.0.tgz#32b488501467acbedd4b85498673a0812aca0b99"
+  integrity sha512-g5JVHCIJwzfISaXpXE1qvNalca5Jwob6FjI4AoPlqMusJ6ftFE7IkkFoMhVLRgK+4Kx3gkzb8UZK5t5yTTvEmA==
+  dependencies:
+    tslib "^1.8.1"
 
 tsutils@^3.17.1:
   version "3.17.1"
@@ -12609,6 +12703,11 @@ typeface-montserrat@0.0.75:
   version "0.0.75"
   resolved "https://registry.yarnpkg.com/typeface-montserrat/-/typeface-montserrat-0.0.75.tgz#b796d9c767ab8ed1343271985beb1e44b382b7b3"
   integrity sha512-8ski20t3hdwu2T85pVfjK4jsDbwW8yWzd+LAKxYEmu+JVLVlB7G2yfmdKZz06pUwYCLVFvHvup+NYYulHDpE+w==
+
+typescript@*:
+  version "3.8.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
+  integrity sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
 
 typography-breakpoint-constants@^0.16.19:
   version "0.16.19"
@@ -13099,6 +13198,10 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+"vscode-textmate@https://github.com/octref/vscode-textmate":
+  version "4.0.1"
+  resolved "https://github.com/octref/vscode-textmate#e65aabe2227febda7beaad31dd0fca1228c5ddf3"
 
 warning@^3.0.0:
   version "3.0.0"
