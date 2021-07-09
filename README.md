@@ -1,3 +1,5 @@
+This is an old technique from before the consolidation of the shiki-twoslash tools, please follow the instructions on https://www.npmjs.com/package/gatsby-remark-shiki-twoslash instead
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
